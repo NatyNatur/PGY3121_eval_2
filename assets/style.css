@@ -1,0 +1,15 @@
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.imageBckg {
+background-image: url('./img/pexels-ingo-joseph-188035.jpg');
+background-size: cover;
+background-position: center;
+height: 80vh;
+}
+
+.bg-blue {
+    background-color: #182D65;
+}
