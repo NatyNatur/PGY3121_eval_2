@@ -15,7 +15,7 @@ height: 80vh;
     background-image: url('./img/pexels-marc-mueller-380769.jpg');
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 35vh;
 }
 
 .bg-blue {
@@ -24,4 +24,9 @@ height: 80vh;
 
 .bg-nav {
     background-color: #182D65;
+}
+
+.nav-link.active {
+    font-weight: 500;
+    text-decoration: underline;
 }
