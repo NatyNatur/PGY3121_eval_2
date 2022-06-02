@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light navChange">
+        <nav class="navbar navbar-expand-lg navbar-light bg-nav">
             <a class="navbar-brand text-white" href="#">HolaCompany</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,31 +33,117 @@
             </div>
         </nav>
     </header>
-    <div class="container-fluid imageBckg">
+    <div class="container-fluid contactBckg">
 
     </div>
-    <div class="container">
-        <div class="row py-5">
-            <div class="col-12 col-lg-6">
-                <h5>Misión</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel temporibus dicta pariatur quos quaerat
-                    amet officia, dolores dolorum magnam sed tempore quo, modi iusto fuga odio, numquam quis porro
-                    cupiditate voluptatem quidem consequuntur? In fugit at corporis, beatae optio delectus, culpa iste
-                    exercitationem debitis quo veniam qui vel earum sequi.</p>
-            </div>
-            <div class="col-12 col-lg-6">
-                <h5>Visión</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis vel, consequuntur
-                    perspiciatis, possimus dolor delectus dicta repellat deserunt commodi unde nisi architecto ipsam
-                    nesciunt minima obcaecati? Asperiores, est deserunt eveniet molestias deleniti quasi quo itaque
-                    mollitia eius error illum nemo eos odit quibusdam ratione vel sit suscipit minus, quos laborum hic
-                    laboriosam maxime? Voluptas natus corrupti architecto unde commodi iusto aspernatur inventore fuga
-                    enim deleniti odio dignissimos similique neque facilis illum possimus qui repellendus, incidunt
-                    provident dolor excepturi. Nostrum repellendus, assumenda saepe vel ut dolor culpa omnis, impedit
-                    sunt eligendi nam laudantium. Quaerat sed quos eligendi voluptatem modi deserunt.</p>
+
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <h5 class="d-block">Contacto</h5>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-11 col-md-7">
+                <form action="#" name="formulario">
+                    <div class="form-group row">
+                        <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Ingrese su nombre" id="inputNombre" name="nombre">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputRut" class="col-sm-2 col-form-label">Rut</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Ingrese su rut" id="inputRut" name="rut">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputEdad" class="col-sm-2 col-form-label">Edad</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control" placeholder="Ingrese su edad" id="inputEdad" name="edad">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputEmail" class="col-sm-2 col-form-label">Género</label>
+                        <div class="col-sm-10 align-self-center">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Femenino">
+                                <label class="form-check-label" for="inlineRadio1">Femenino</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Masculino">
+                                <label class="form-check-label" for="inlineRadio2">Masculino</label>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Ingrese su email" id="inputEmail" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPhone" class="col-sm-2 col-form-label">Teléfono</label>
+                        <div class="col-sm-10">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">+56 9</span>
+                                </div>
+                                <input type="text" class="form-control" id="inputPhone" placeholder="Ingrese su teléfono" name="telefono"
+                                    aria-label="telefono" aria-describedby="inputGroup-sizing-default">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="inputNombre" class="col-sm-2 col-form-label">Región</label>
+                        <div class="col-sm-10">
+                            <select id="inputRegion" class="form-control" name="region">
+                                <option selected value=null>Seleccione una región</option>
+                                <option value="XV"> XV - Arica y Parinacota</option>
+                                <option value="I"> I - Tarapacá</option>
+                                <option value="II"> II - Antofagasta</option>
+                                <option value="III"> III - Atacama</option>
+                                <option value="IV"> IV - Coquimbo</option>
+                                <option value="V"> V - Valparaíso</option>
+                                <option value="VI"> VI - Libertador G. Bernardo O'Higgins</option>
+                                <option value="VII"> VII - Maule</option>
+                                <option value="VIII"> VIII - Biobío</option>
+                                <option value="IX"> IX - La Araucanía</option>
+                                <option value="XIV"> XIV - Los Ríos</option>
+                                <option value="X"> X - Los Lagos</option>
+                                <option value="XI"> XI - Aisén del G. Carlos Ibáñez del Campo</option>
+                                <option value="XII"> XII - Magallanes y la Antártica Chilena</option>
+                                <option value="XIII"> XIII - Metropolitana de Santiago </option>
+                              </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="inputEmail" class="col-sm-2 col-form-label">Mensaje</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="mensajeForm" name=mensaje rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group row">
+
+                        <div class="col-sm-12 text-right">
+                            <button type="button" class="btn btn-secondary mb-3"
+                            onclick="javascript:void(limpiarForm())">Limpiar</button>
+                            <button type="button" class="btn btn-primary mb-3"
+                            onclick="javascript:void(enviaMensaje())">Ingresar</button>
+                        </div>
+                    </div>
+            
+                </form>
             </div>
         </div>
+        <div class="row" id="datos">
 
+        </div>
+    </div>
+    </div>
     </div>
 
     <footer class="bg-blue">
@@ -77,7 +163,8 @@
                 </div>
                 <div class="col-12 col-lg-3">
                     <p class="text-white text-right mb-0">+56 9 234 4321</p>
-                    <p class="text-white text-right mb-5"><a href="contacto@holacompany.com" class="text-white">contacto@holacompany.com</a></p>
+                    <p class="text-white text-right mb-5"><a href="contacto@holacompany.com"
+                            class="text-white">contacto@holacompany.com</a></p>
                     <div class="d-flex justify-content-around">
                         <a class="footerRS" href="javascript:void(0)">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#FFFFFF"
